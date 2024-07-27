@@ -19,7 +19,7 @@ function Menu() {
     localStorage.removeItem('token');
     localStorage.removeItem('loggedInUser');
     setTimeout(() => {
-      window.location.href = 'https://zerodha-frontend.vercel.app/';
+      window.location.href = 'https://zerodha-frontend.vercel.app/signup';
     }, 1000)
   };
 
